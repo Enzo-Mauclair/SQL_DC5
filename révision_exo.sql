@@ -11,3 +11,5 @@ SELECT * FROM Campagnes ORDER BY budget;
 SELECT * FROM Campagnes ORDER BY debut_campagne DESC LIMIT 5;
 
 SELECT COUNT(client_id) FROM Clients
+
+SELECT AVG(age) FROM Clients;
