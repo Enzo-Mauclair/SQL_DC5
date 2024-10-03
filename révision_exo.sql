@@ -7,3 +7,5 @@ SELECT * FROM Clients WHERE age > 40;
 SELECT * FROM Clients WHERE location = 'Paris' AND age BETWEEN 25 AND 35;
 
 SELECT * FROM Campagnes ORDER BY budget;
+
+SELECT * FROM Campagnes ORDER BY debut_campagne DESC LIMIT 5;
