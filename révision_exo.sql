@@ -15,3 +15,5 @@ SELECT COUNT(client_id) FROM Clients
 SELECT AVG(age) FROM Clients;
 
 SELECT SUM(budget) FROM Campagnes;
+
+SELECT MAX(budget), nom_campagne FROM Campagnes;
